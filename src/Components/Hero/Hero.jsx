@@ -11,7 +11,7 @@ function Hero() {
         <h1>Hello!</h1>
         <h2>I'm Muni Neelam</h2>
         <Type/>
-        <p>I'm an Aspiring Techie.</p> 
+        <p>I'm an Aspiring Techie.</p>  
         <p>
          I've also have experience on Realistic AI image Genaration. I'm passionate about my work.
         </p>

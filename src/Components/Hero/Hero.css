@@ -64,19 +64,20 @@
     }
 
     .hero-content p{
-      font-size: 1.3em;;
+      font-size: 1.1em;
     }
   
     .hero-content, .hero-image {
       max-width: 100%;
       text-align: center;
-      margin-top: 20px;
+      
     }
   
     .image-container {
-      margin-top: 20px;
-      width: 90%;
-      padding: 20px;
+      margin-top: 10px;
+      margin-left: 30px;
+      width: 80%;
+      padding: 10px;
       border-radius: 50%;
       background-color: #001f88;
       display: flex;

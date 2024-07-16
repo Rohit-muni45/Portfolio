@@ -35,7 +35,7 @@
   
     .footer {
       bottom: 0;
-      padding: 10px;
+      padding: 5px;
       position: relative;
       left: 0;
       bottom: 0;
@@ -44,7 +44,7 @@
     .footer-content{
         flex-direction: column;
         justify-content: space-around;
-        font-size: 20px;
+        font-size: 10px;
     }
   
   }
