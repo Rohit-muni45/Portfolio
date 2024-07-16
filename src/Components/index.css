@@ -1,0 +1,39 @@
+
+.App {
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+  }
+
+/* Loader */
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+/* Typewriter */
+
+.type-writer {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color:#001f88;
+  padding: 20px;
+  margin: 20px auto;
+  width: fit-content;
+  text-align: center;
+}
+

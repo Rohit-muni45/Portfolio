@@ -1,0 +1,32 @@
+.projects {
+    padding: 40px 20px;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    background-color: #f9f9f9;
+    
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  
+  h2 {
+    font-size: 2em;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .projects{
+      padding: 65px 10px;
+    }
+    
+  }
+  

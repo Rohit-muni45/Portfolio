@@ -1,0 +1,42 @@
+.about {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    background-color: #f9f9f9;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 20px;
+    }
+
+    .about{
+        padding: 70px 30px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+    
+    .container p {
+      font-size: 1.3rem;
+    }
+  }
+  

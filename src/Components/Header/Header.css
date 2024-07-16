@@ -1,0 +1,130 @@
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
+    
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header a:hover {
+    color: #007bff;
+  }
+  
+  .header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2rem;
+   
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .nav a.active {
+    font-weight: bold;
+    color: #001f88;
+  }
+  
+  .nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Hamburger menu */
+  
+  .hamburger, .close-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger .line,
+  .close-icon .line {
+    width: 25px;
+    height: 6px;
+    background-color: black;
+    margin: 4px 0 ;
+  }
+  
+  .close-icon .line1 {
+    transform: rotate(45deg) translate(5px, 5px);
+  
+    
+  }
+  
+  .close-icon .line2 {
+    transform: rotate(-45deg) translate(5px, -5px);
+    
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      
+      padding: max(10px, 12%);
+      gap: 30px;
+      background-color:#3498db;
+      width: 35%;
+      height: 100vh;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      transition: all 0.3s ease;
+      transform: translateX(100%);
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      z-index: 1;
+    }
+  
+    .nav-mobile {
+      transform: translateX(0);
+      
+    }
+  
+    .logo{
+      font-size: 2rem;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  
+    .nav a {
+      margin: 10px 0;
+      color: #cfdef3;
+      font-size: 1.3rem;
+      
+    }
+  
+    .hamburger, .close-icon {
+      display: flex;
+      z-index: 1;
+      position: absolute;
+      top: 20px;
+      right: 10px; 
+    }
+  
+    .close-icon{
+      top: 10px;
+    }
+  }
+  
