@@ -34,7 +34,7 @@ const projects = [
     title: 'Joke Generator',
     description: 'Built a joke generator using HTML, CSS, and JavaScript.',
     githubLink: 'https://github.com/Rohit-muni45/Jokes-app',
-    siteLink: 'https://sampleweb-123.w3spaces.com/',
+    siteLink: 'https://jokes-app-alpha.vercel.app/',
   },
 ];
 

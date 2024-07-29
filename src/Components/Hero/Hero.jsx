@@ -13,9 +13,9 @@ function Hero() {
         <Type/>
         <p>I'm an Aspiring Techie.</p>  
         <p>
-         I've also have experience on Realistic AI image Genaration. I'm passionate about my work.
+         I also have experience on Realistic AI image Genaration. I'm passionate about my work.
         </p>
-        <button className="hire-button" onClick={() => window.open('https://drive.google.com/file/d/1A8XYdbzDNNiMJpknIu6yL_a27H8Hl_hH/view?usp=drive_link', '_blank')}>Resume</button>
+        <button className="hire-button" onClick={() => window.open('https://drive.google.com/file/d/1wXY2Bc5Pgkk8pNCVs3j2VeTJuwUWiqbh/view?usp=drive_link', '_blank')}>Resume</button>
       </div>
       <div className="hero-image">
         <div className="image-container">
