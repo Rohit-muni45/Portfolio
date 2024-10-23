@@ -8,6 +8,8 @@ const skills = [
   { id:'3', name: 'Python', color: '#4F5B93' },
   { id:'4', name: 'MySQL', color: '#31A8FF' },
   { id:'5', name: 'React', color: '#FF9A00' },
+  { id:'6', name: 'Node.js', color: '#43853D' },
+  { id:'7', name: 'MongoDB', color: '#4DB33D' },
 ];
 
 function Skills() {
