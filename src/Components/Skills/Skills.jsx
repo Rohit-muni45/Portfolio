@@ -4,7 +4,7 @@ import Avatar from '../../Images/Avatar.png';
 
 const skills = [
   { id:'1', name: 'Javascript', color: '#A3D200' },
-  { id:'2', name: 'HTML/CSS', color: '#E44D26' },
+  { id:'2', name: 'React native', color: '#E44D26' },
   { id:'3', name: 'Python', color: '#4F5B93' },
   { id:'4', name: 'MySQL', color: '#31A8FF' },
   { id:'5', name: 'React', color: '#FF9A00' },

@@ -7,7 +7,7 @@ function Type() {
     <div className='type-writer'>
       <Typewriter
         options={{
-          strings: ['', 'Web Developer', 'AI art Generator'],
+          strings: ['Web Developer', 'Mobile App Developer', 'AI art Generator'],
           autoStart: true,
           loop: true,        
           deleteSpeed: 20,
