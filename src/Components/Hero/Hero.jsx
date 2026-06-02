@@ -10,12 +10,12 @@ function Hero() {
       <div className="hero-content">
         <h1>Hello!</h1>
         <h2>I'm Muni Neelam</h2>
-        <Type/>
-        <p>I'm an Aspiring Techie.</p>  
+        <Type/> 
         <p>
-         I also have experience on Realistic AI image Genaration. I'm passionate about my work.
+        I'm a passionate Full Stack Developer with experience in building responsive and
+         user-friendly web and mobile applications.
         </p>
-        <button className="hire-button" onClick={() => window.open('https://drive.google.com/file/d/1a82gS0Jz-r8VxWM7buRiDUNZd4ErGbpb/view?usp=drive_link', '_blank')}>Resume</button>
+        <button className="hire-button" onClick={() => window.open('https://drive.google.com/file/d/1B_lvTf7tik24qOW_vgmB65IMvITKS2Rk/view?usp=sharing', '_blank')}>Resume</button>
       </div>
       <div className="hero-image">
         <div className="image-container">
